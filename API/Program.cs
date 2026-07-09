@@ -22,7 +22,7 @@ builder.Services.AddScoped<IResultRepository,   ResultRepository>();
 // ── Services ─────────────────────────────────────────────────────────────────
 builder.Services.AddScoped<IQuizService,   QuizService>();
 builder.Services.AddScoped<IResultService, ResultService>();
-
+builder.Services.AddScoped<IAuthService,   AuthService>();
 // ── API ───────────────────────────────────────────────────────────────────────
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();

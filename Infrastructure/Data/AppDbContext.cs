@@ -12,6 +12,7 @@ public class AppDbContext : DbContext
     public DbSet<TestSession> TestSessions => Set<TestSession>();
     public DbSet<Answer>      Answers      => Set<Answer>();
     public DbSet<TestResult>  TestResults  => Set<TestResult>();
+    public DbSet<User>        Users        => Set<User>();
 
     protected override void OnModelCreating(ModelBuilder mb)
     {
