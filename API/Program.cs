@@ -23,6 +23,7 @@ builder.Services.AddScoped<IResultRepository,   ResultRepository>();
 builder.Services.AddScoped<IQuizService,   QuizService>();
 builder.Services.AddScoped<IResultService, ResultService>();
 builder.Services.AddScoped<IAuthService,   AuthService>();
+builder.Services.AddScoped<ITokenService, TokenService>();
 // ── API ───────────────────────────────────────────────────────────────────────
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
